@@ -1,6 +1,6 @@
-## THE GIT & GITHUB BOOTCAMP
+## 👩🏻‍💻 THE GIT & GITHUB BOOTCAMP
 
-- Version Control -> is software thet tracks and manages changes to file over time.
+- Version Control -> is software that tracks and manages changes to file over time.
 
 ### commands
 - git --version -> to know the version
@@ -18,7 +18,7 @@
 - ls -a -> to show hidden files
 - |WORKIKG DIRECTORY| git add |>STANGING AREA| git commit |>REPOSITORY|
 - git add
-- git add . -> to stage all changes at once
+- git add . -> to stage all changes at once (./)
 - git add file1 file2
 - git commit -m "my message"
 - git commit -> open vim -> click ⌨️ a -> write commit ->  ⌨️ :wp
@@ -33,8 +33,27 @@
     - 📋 Create a file called .gitignore in the root of a repository. Inside the file, we can grite patterns to tell Git wich files and folders to ignore (.DS_Store, folderName/, *.log(will ignore any files with the .log extension))
 
 - ____________ workig with branches ____________
+- HEAD -> master
+    - HEAD is a pointer that refers to the current "location" in your repository. Ii points to a particular branch reference.
+    - HEAD always points to the lastest commit you made on the master branch (or HEAD is the lastest commit on the branch I am)
+- git branch -> to show branches of repo and to show what branch  I am
+- git branch branch-name -> to make a new branch based upon the current HEAD
+- git switch branch-name = git checkout branch-name
+- git commit -a -m "This add and commit in one command" (👀 video 46)
+- git checkout vs. git switch
+    - git checkout branch-name
+- git switch -c "branch-name" // create a new branch AND switch to it (-c -> create) (git checkout -b branch-name ?)
+- (⚠️ 👀 v.48) When I have to switch branch without making a commit ->
+    - git stash 
+- ❌ Delete branch -> I can delete the branch when I am 
+    - 1 -> git switch name-another-branch
+    - 2 -> git branch -D name-delete-branch
+- Rename a branch
+    - 1 -> switch to branch we want to rename
+        - git checkout branch-change-name
+    - 2 -> git branch -m new-name
 
-### Terminal crash course: navigation
+### ⚡️ Terminal crash course: navigation
 - clear || command Q
 - ls  -> to list the contents of your current directory
 - ls Code || ls Code/website
