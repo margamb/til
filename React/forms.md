@@ -1,6 +1,6 @@
 ### Form React
 
-![](imgages/input_form_explanation.png)
+![](../images/input_form_explanation.png)
 
 ```jsx
 import React, { useEffect, useState } from 'react';
