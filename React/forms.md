@@ -1,7 +1,5 @@
 ### Form React
 
-![](../images/input_form_explanation.png)
-
 ```jsx
 import React, { useEffect, useState } from 'react';
 
@@ -36,6 +34,9 @@ function App() {
 ```
 
 ### Form Javascript
+
+![](../images/input_form_explanation.png)
+
 #### STEPS
 - 1 -> 👆 Seleccionar elementos del DOM (querySelector)
     - const valueName = document.querySelector('#name');  
