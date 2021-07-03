@@ -1,4 +1,4 @@
-### useEfect 
+### useEffect 
 
     - It is a function that take 2 arguments
         - First argument -> is a function(callback) to be executed(run)
@@ -6,7 +6,7 @@
 
 ```jsx
 
-import React, { useState, useEffect } from 'react';
+import React, { useEffect } from 'react';
 
 useEffect(() => {
     //first argument
